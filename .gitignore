@@ -1,0 +1,51 @@
+# Standard EDA Tool Simulation Artifacts & Output Files
+
+# Work directories
+work/
+work_lib/
+csrc/
+simv.daidir/
+xcelium.d/
+inx.d/
+.simvision/
+dsim.d/
+
+# Executables & Simulation binaries
+simv
+simv.*
+a.out
+*.out
+*.exe
+*.o
+*.so
+
+# Waveforms & Signal Traces
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+*.evcd
+*.ghw
+
+# Log files & Transcripts
+*.log
+transcript
+vsim.wlf
+compile.log
+sim.log
+xrun.log
+ncsim.log
+
+# Compiler & Linter temp files
+*.d
+*.pyc
+__pycache__/
+.verilator/
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
